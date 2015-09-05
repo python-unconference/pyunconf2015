@@ -65,14 +65,14 @@ days:
             location: Foyer
 
       - start: '14:15'
-        end: '14:45'
+        end: '15:15'
         talks:
           - speaker: ''
             title: Lightning Talks
             location: tba
 
-      - start: '15:00'
-        end: '15:45'
+      - start: '15:15'
+        end: '16:00'
         talks:
           - speaker: 'Nikolay Koldunov'
             title: 'Pandas intro (Apache log analysis)'
@@ -84,7 +84,7 @@ days:
             title: 'PyCharm'
             location: H5
 
-      - start: '15:45'
+      - start: '16:00'
         end: '16:30'
         talks:
           - speaker: ''
