@@ -165,7 +165,7 @@ days:
         end: '15:15'
         talks:
           - speaker: 'Dave Bruderstein'
-            title: 'Intro into react.js'
+            title: 'Intro to React.js'
             location: H2
           - speaker: 'Reinhard Probst'
             title: 'Queue instead of lock - Go in Python'
