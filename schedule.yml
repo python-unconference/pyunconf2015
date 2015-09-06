@@ -137,9 +137,15 @@ days:
       - start: '12:00'
         end: '12:45'
         talks:
-          - speaker: ''
-            title: 'Sessions'
-            location: tba
+          - speaker: 'Michael Kuehne + Max'
+            title: 'Microservices with Python + Websockets discussion'
+            location: H2
+          - speaker: 'Henning'
+            title: 'PyPy'
+            location: H3
+          - speaker: 'Andreas'
+            title: 'Discussion: Learning Python - How the community can help'
+            location: H5
       
       - start: '12:45'
         end: '13:45'
@@ -158,9 +164,15 @@ days:
       - start: '14:30'
         end: '15:15'
         talks:
-          - speaker: ''
-            title: 'Session'
-            location: tba
+          - speaker: 'Dave Bruderstein'
+            title: 'Intro into react.js'
+            location: H2
+          - speaker: 'Reinhard Probst'
+            title: 'Queue instead of lock - Go in Python'
+            location: H3
+          - speaker: 'Klaus Bremer'
+            title: 'FritzConnection Python Schnittstelle'
+            location: H5
 
       - start: '15:15'
         end: '16:30'
@@ -169,14 +181,20 @@ days:
             title: Kaffeepause / Teatime
             location: Foyer
 
-      - start: '16:30'
-        end: '17:15'
+      - start: '16:00'
+        end: '16:45'
         talks:
-          - speaker: ''
-            title: 'Session'
-            location: tba
+          - speaker: 'Christina'
+            title: 'Feature-based opinion mining'
+            location: H2
+          - speaker: 'Nikolay Koldunov'
+            title: 'Fun with maps'
+            location: H3
+          - speaker: 'Johannes Hubertz'
+            title: 'Unittests für Einsteiger'
+            location: H5
 
-      - start: '17:15'
+      - start: '17:00'
         end: '18:00'
         talks:
           - speaker: ''
