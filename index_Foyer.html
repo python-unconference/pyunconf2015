@@ -1,0 +1,153 @@
+<html manifest="cache.appcache">
+<head>
+  <link rel="stylesheet" href="style.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<div class="content">
+  <header>
+  <h1>Python Unconference 2015</h1>
+</header>
+
+<a href="index.html">Home</a>
+
+<h2>Foyer - Samstag</h2>
+
+
+<div class="slot-container">
+  <span class="slot-time-start">09:00</span> -
+  <span class="slot-time-end">10:00</span>
+
+  <div class="talks-container">
+    <div class="talk-container">
+      <div class="talk-title">Einlass, Registrierung und Frühstück / Inlet, Registration and Breakfast</div>
+      <div class="talk-footer">
+        <div class="talk-speaker"></div>
+        <div class="talk-location">Foyer</div>
+        <div style="clear: both;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="slot-container">
+  <span class="slot-time-start">10:00</span> -
+  <span class="slot-time-end">10:15</span>
+
+  <div class="talks-container">
+    <div class="talk-container">
+      <div class="talk-title">What is an UnConf - introducing the mode of vote</div>
+      <div class="talk-footer">
+        <div class="talk-speaker"></div>
+        <div class="talk-location">Foyer</div>
+        <div style="clear: both;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="slot-container">
+  <span class="slot-time-start">10:15</span> -
+  <span class="slot-time-end">10:45</span>
+
+  <div class="talks-container">
+    <div class="talk-container">
+      <div class="talk-title">Session Presentation</div>
+      <div class="talk-footer">
+        <div class="talk-speaker"></div>
+        <div class="talk-location">Foyer</div>
+        <div style="clear: both;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="slot-container">
+  <span class="slot-time-start">10:45</span> -
+  <span class="slot-time-end">11:15</span>
+
+  <div class="talks-container">
+    <div class="talk-container">
+      <div class="talk-title">Session Voting + Session Planning</div>
+      <div class="talk-footer">
+        <div class="talk-speaker"></div>
+        <div class="talk-location">Foyer</div>
+        <div style="clear: both;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="slot-container">
+  <span class="slot-time-start">13:15</span> -
+  <span class="slot-time-end">14:15</span>
+
+  <div class="talks-container">
+    <div class="talk-container">
+      <div class="talk-title">Lunch</div>
+      <div class="talk-footer">
+        <div class="talk-speaker"></div>
+        <div class="talk-location">Foyer</div>
+        <div style="clear: both;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="slot-container">
+  <span class="slot-time-start">16:00</span> -
+  <span class="slot-time-end">16:30</span>
+
+  <div class="talks-container">
+    <div class="talk-container">
+      <div class="talk-title">Kaffeepause / Teatime</div>
+      <div class="talk-footer">
+        <div class="talk-speaker"></div>
+        <div class="talk-location">Foyer</div>
+        <div style="clear: both;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="slot-container">
+  <span class="slot-time-start">17:30</span> -
+  <span class="slot-time-end">18:00</span>
+
+  <div class="talks-container">
+    <div class="talk-container">
+      <div class="talk-title">Closing Session</div>
+      <div class="talk-footer">
+        <div class="talk-speaker"></div>
+        <div class="talk-location">Foyer</div>
+        <div style="clear: both;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+<script type="application/javascript">
+  (function () {
+    if (!window.applicationCache) {
+      return;
+    }
+    window.addEventListener('load', function (e) {
+      window.applicationCache.addEventListener('updateready', function (e) {
+        if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
+          if (confirm('Schedule has updated. Want to reload?')) {
+            window.location.reload();
+          }
+        }
+      }, false);
+
+    }, false);
+  })();
+
+</script>
+</body>
+
+</html>

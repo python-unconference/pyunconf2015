@@ -1,0 +1,73 @@
+<html manifest="cache.appcache">
+<head>
+  <link rel="stylesheet" href="style.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<div class="content">
+  <header>
+  <h1>Python Unconference 2015</h1>
+</header>
+
+<a href="index.html">Home</a>
+
+<h2>tba - Sonntag</h2>
+
+
+<div class="slot-container">
+  <span class="slot-time-start">11:00</span> -
+  <span class="slot-time-end">11:45</span>
+
+  <div class="talks-container">
+    <div class="talk-container">
+      <div class="talk-title">Keynote</div>
+      <div class="talk-footer">
+        <div class="talk-speaker"></div>
+        <div class="talk-location">tba</div>
+        <div style="clear: both;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="slot-container">
+  <span class="slot-time-start">13:45</span> -
+  <span class="slot-time-end">14:15</span>
+
+  <div class="talks-container">
+    <div class="talk-container">
+      <div class="talk-title">Lightning Talks</div>
+      <div class="talk-footer">
+        <div class="talk-speaker"></div>
+        <div class="talk-location">tba</div>
+        <div style="clear: both;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+<script type="application/javascript">
+  (function () {
+    if (!window.applicationCache) {
+      return;
+    }
+    window.addEventListener('load', function (e) {
+      window.applicationCache.addEventListener('updateready', function (e) {
+        if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
+          if (confirm('Schedule has updated. Want to reload?')) {
+            window.location.reload();
+          }
+        }
+      }, false);
+
+    }, false);
+  })();
+
+</script>
+</body>
+
+</html>
